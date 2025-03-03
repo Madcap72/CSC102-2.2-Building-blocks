@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 Ball Game</title>
+
+    <!--defer put in script line 9 to stop the javascript from running as soon as the page loads..why was that such a pain to figure out...?-->
+    <script src="Code.js" defer></script>
+    
+    <!--links the css for page design style. Edit the css to look pretty-->
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="heading">Welcome to the magic 8 ball</h1>
+    
+<main class="main-content">
+    <h2>Ask the Magic 8-Ball a Question:</h2>
+
+    <!--Input for the question-->
+    <input type="text" id="questionInput" placeholder="Type your question here">
+
+    <!--Button to get 8-Ball response-->
+    <button id="askButton" onclick="Magic8Ball();">
+        <img src="8ball_button.jpg" alt="Magic 8 Ball">
+
+    <!--Answer display-->
+    <p id="finalResult"></p>
+</main>
+
+</body>
+</html>
