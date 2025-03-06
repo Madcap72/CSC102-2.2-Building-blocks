@@ -61,7 +61,7 @@ input {
 
 #askButton img {
 
-    width: 80px
+    width: 80px;
     transition: transform 0.2s ease-in-out; 
 
 }
